@@ -6,7 +6,7 @@ User.hasMany(Book, {
   onDelete: 'CASCADE'
 });
 
-Project.belongsTo(User, {
+Book.belongsTo(User, {
   foreignKey: 'user_id'
 });
 
