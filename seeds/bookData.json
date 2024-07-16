@@ -1,0 +1,18 @@
+[
+    {
+      "name": "To Kill a Mockingbird",
+      "description": "A novel about the serious issues of rape and racial inequality in the Deep South, seen through the eyes of a young girl.",
+      "review": "Harper Lee's 'To Kill a Mockingbird' is a profound narrative that explores the depths of human behavior. The characters are richly developed, with Atticus Finch standing out as a paragon of virtue and moral strength. The novel's exploration of societal issues is as relevant today as it was when first published, making it a timeless piece of literature."
+    },
+    {
+      "name": "1984",
+      "description": "A dystopian novel set in a totalitarian society under constant surveillance by Big Brother.",
+      "review": "George Orwell's '1984' is a chilling portrayal of a world where freedom and individuality are obliterated. The book's powerful themes of control, surveillance, and propaganda resonate deeply with modern readers. Orwell's masterful storytelling and sharp commentary on political structures make this a must-read for anyone interested in the dangers of unchecked power."
+    },
+    {
+      "name": "Pride and Prejudice",
+      "description": "A classic romantic novel that critiques the British landed gentry at the end of the 18th century.",
+      "review": "Jane Austen's 'Pride and Prejudice' offers a delightful exploration of manners, marriage, and morality in the British Regency. The wit and intelligence of Elizabeth Bennet, coupled with the complex character of Mr. Darcy, provide a captivating romantic tension. Austen's sharp social commentary and engaging narrative ensure this novel's enduring popularity and influence in literature."
+    }
+  ]
+  
