@@ -1,4 +1,3 @@
-
 const router = require('express').Router();
 const { Book, User } = require('../models');
 const withAuth = require('../utils/auth');
