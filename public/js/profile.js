@@ -6,7 +6,7 @@ const newFormHandler = async (event) => {
     const description = document.querySelector('#book-desc').value.trim();
   
     if (name && description && review) {
-      const response = await fetch(`/api/book`, {
+      const response = await fetch(`/api/books`, {
         method: 'POST',
         body: JSON.stringify({ name, description, review }),
         headers: {
@@ -17,7 +17,7 @@ const newFormHandler = async (event) => {
       if (response.ok) {
         document.location.replace('/profile');
       } else {
-        alert('Failed to create project');
+        alert('Failed to create post');
       }
     }
   };
@@ -26,7 +26,7 @@ const newFormHandler = async (event) => {
     if (event.target.hasAttribute('data-id')) {
       const id = event.target.getAttribute('data-id');
   
-      const response = await fetch(`/api/book/${id}`, {
+      const response = await fetch(`/api/books/${id}`, {
         method: 'DELETE',
       });
   
@@ -39,10 +39,10 @@ const newFormHandler = async (event) => {
   };
   
   document
-    .querySelector('.new-project-form')
+    .querySelector('.new-book-form')
     .addEventListener('submit', newFormHandler);
   
   document
-    .querySelector('.project-list')
+    .querySelector('.book-list')
     .addEventListener('click', delButtonHandler);
   
