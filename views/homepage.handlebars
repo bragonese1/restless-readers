@@ -5,14 +5,18 @@
         <h2>
             <a href="/book/{{book.id}}">{{book.name}}</a>
         </h2>
-        <p>
-            <span for="img" aria-label="book">💲</span>
+       <span for="img" aria-label="book">📖</span>
         </p>
-        <p>Created by {{book.user.name}} </p>
+        <p>Created by {{user.username}} </p>
     </div>
     <div class="col-md-7">
+        <h5>Description:</h5> 
+        <p>   
+           {{book.description}}
+        </p>
+        <h5>Review:</h5> 
         <p>
-            {{book.description}}
+            {{book.review}}
         </p>
     </div>
 </div>
