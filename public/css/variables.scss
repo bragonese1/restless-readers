@@ -1,0 +1,27 @@
+// variables.scss
+
+// Import Bulma's default variables
+@import "bulma/sass/utilities/initial-variables";
+
+// Dark theme colors
+$primary: #ff6f61;
+$background: #121212;
+$foreground: #1e1e1e;
+$text: #e0e0e0;
+$link: #bb86fc;
+$link-hover: #3700b3;
+
+// Set Bulma's variables
+$body-background-color: $background;
+$navbar-background-color: $foreground;
+$navbar-item-color: $text;
+$navbar-item-hover-color: $link;
+$button-color: $foreground;
+$button-background-color: $primary;
+$button-border-color: $primary;
+$input-background-color: $foreground;
+$input-color: $text;
+$input-border-color: $primary;
+
+// Import Bulma's core
+@import "bulma/bulma";

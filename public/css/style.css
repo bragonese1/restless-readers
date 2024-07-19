@@ -1,1 +1,48 @@
+/* style.css */
 
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+  
+  body {
+    background-color: #121212;
+    color: #e0e0e0;
+    animation: fadeIn 1s ease-in;
+
+  }
+
+  
+  h1, h2, h3, h4, h5, h6 {
+    animation: fadeIn 1.5s ease-in;
+  }
+  
+  button {
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #bb86fc;
+    color: #121212;
+  }
+  
+  a {
+    color: #bb86fc;
+    transition: color 0.3s ease;
+  }
+  
+  a:hover {
+    color: #3700b3;
+  }
+  
+  .footer {
+    background-color: #1e1e1e;
+    position: relative;
+    padding: 2rem;
+    color: #e0e0e0;
+  }
+  
