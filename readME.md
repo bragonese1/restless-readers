@@ -91,7 +91,7 @@ The application is deployed at: [Deployed Application URL](https://restless-read
 
 ## Screenshots
 
-![Homepage Screenshot](/Image/Screenshot 2024-07-18 at 20.35.42.png)
+![Homepage Screenshot](/restless-readers/Image/Homepage.png)
 
 ## Contributing
 
